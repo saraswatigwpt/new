@@ -1,0 +1,48 @@
+
+body{
+    background-color: azure;
+}
+#traffic-light{
+  
+    display: block;
+    background-color: black;
+    background-position: center;
+    left: 50%;
+    top: 50%;
+    border: 2px solid black;
+    width: 80px;
+    height: 250px;
+    align-items: center;
+}
+
+div.color1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+
+}
+div.color2{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+    &:hover {
+    animation: blink1 1.1s step-end infinite;
+    }
+    
+}
+  
+div.color3{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    
+    &:hover {
+    animation: blink1 1.1s step-end infinite;
+    }
+    
+}
